@@ -1,6 +1,7 @@
 package com.example.myapp_project_kotlin
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -28,12 +29,26 @@ class MainActivity : AppCompatActivity() {
             val food = Food(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
             listFood.add(food)
         }
+        dataPhoto.recycle() // Penting untuk melepaskan TypedArray
         return listFood
     }
 
+    // Menampilkan RecyclerView dengan adapter dan callback
     private fun showRecyclerList() {
         rvFoods.layoutManager = LinearLayoutManager(this)
         val listFoodAdapter = ListFoodAdapter(list)
         rvFoods.adapter = listFoodAdapter
+
+        // Set onItemClickCallback untuk menangani klik item
+        listFoodAdapter.setOnItemClickCallback(object : ListFoodAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Food) {
+                showSelectedFood(data)
+            }
+        })
+    }
+
+    // Menampilkan Toast saat item diklik
+    private fun showSelectedFood(food: Food) {
+        Toast.makeText(this, "Kamu memilih: ${food.name}", Toast.LENGTH_SHORT).show()
     }
 }
