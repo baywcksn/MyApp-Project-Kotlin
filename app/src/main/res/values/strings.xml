@@ -16,24 +16,26 @@
     </string-array>
     <string-array name="data_description">
         <item>Rendang adalah hidangan daging yang kaya rasa dan berasal dari Minangkabau, Indonesia. Hidangan ini terkenal dengan proses memasaknya yang lama dan penggunaan rempah-rempah yang kompleks, menghasilkan cita rasa yang mendalam dan tekstur daging yang empuk.</item>
-        <item>Nasi Goreng adalah hidangan nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, yang umumnya dicampur dengan kecap manis, bawang merah, bawang putih, dan berbagai bahan lainnya. Ini adalah salah satu hidangan paling populer di Indonesia dan juga sangat digemari di berbagai negara di Asia Tenggara.</item>
-        <item>Sate ayam adalah hidangan Asia Tenggara yang populer, yang terdiri dari potongan-potongan kecil daging ayam yang ditusuk dan dipanggang atau dibakar. Sate ayam biasanya disajikan dengan saus kacang, kecap manis, atau saus pedas.</item>
+        <item>Nasi Goreng adalah hidangan nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, yang umumnya dicampur dengan kecap manis, bawang merah, bawang putih, dan berbagai bahan lainnya. Ini adalah salah satu hidangan paling popular di Indonesia dan juga sangat digemari di berbagai negara di Asia Tenggara.</item>
+        <item>Sate ayam adalah hidangan Asia Tenggara yang popular, yang terdiri dari potongan-potongan kecil daging ayam yang ditusuk dan dipanggang atau dibakar. Sate ayam biasanya disajikan dengan saus kacang, kecap manis, atau saus pedas.</item>
         <item>Gado-Gado adalah hidangan salad khas Indonesia yang berasal dari Jakarta. Hidangan ini terkenal dengan saus kacangnya yang lezat dan kaya rasa, serta perpaduan berbagai macam sayuran, tahu, tempe, dan telur. Gado-gado sering disebut sebagai "salad Indonesia" karena kesegaran dan keragaman bahan-bahannya.</item>
         <item>Pempek adalah hidangan khas Palembang, Sumatera Selatan, Indonesia, yang terbuat dari daging ikan dan tepung sagu. Pempek dikenal dengan teksturnya yang kenyal dan rasa ikannya yang gurih. Hidangan ini biasanya disajikan dengan kuah cuko yang asam, manis, dan pedas.</item>
-        <item>Serabi adalah jajanan tradisional Indonesia yang berupa kue dadar kecil yang terbuat dari tepung beras dan santan. Serabi memiliki tekstur yang lembut dan empuk, dengan rasa yang gurih dan sedikit manis. Serabi sangat populer di berbagai daerah di Indonesia, dan memiliki variasi yang berbeda-beda di setiap daerah.</item>
-        <item>Pisang Goreng adalah camilan populer di Indonesia dan banyak negara Asia Tenggara lainnya. Sesuai namanya, hidangan ini terbuat dari pisang yang digoreng, biasanya setelah dilapisi dengan adonan tepung. Pisang Goreng sangat digemari karena rasanya yang manis, gurih, dan teksturnya yang renyah di luar namun lembut di dalam.</item>
+        <item>Serabi adalah jajanan tradisional Indonesia yang berupa kue dadar kecil yang terbuat dari tepung beras dan santan. Serabi memiliki tekstur yang lembut dan empuk, dengan rasa yang gurih dan sedikit manis. Serabi sangat popular di berbagai daerah di Indonesia, dan memiliki variasi yang berbeda-beda di setiap daerah.</item>
+        <item>Pisang Goreng adalah camilan popular di Indonesia dan banyak negara Asia Tenggara lainnya. Sesuai namanya, hidangan ini terbuat dari pisang yang digoreng, biasanya setelah dilapisi dengan adonan tepung. Pisang Goreng sangat digemari karena rasanya yang manis, gurih, dan teksturnya yang renyah di luar namun lembut di dalam.</item>
         <item>Lupis dan Cenil adalah dua jajanan tradisional Indonesia yang sering disajikan bersamaan dan memiliki cita rasa yang mirip, yaitu manis dan gurih. Keduanya terbuat dari bahan dasar yang berbeda, namun sama-sama disajikan dengan parutan kelapa dan saus gula merah kental.</item>
-        <item>Mie Instan adalah salah satu jenis makanan olahan yang sangat populer di seluruh dunia, terutama di Asia. Dinamakan "instan" karena proses pembuatannya yang cepat dan praktis. Mie instan biasanya dijual dalam kemasan yang berisi mie kering, bumbu, dan minyak.</item>
+        <item>Mie Instan adalah salah satu jenis makanan olahan yang sangat popular di seluruh dunia, terutama di Asia. Dinamakan "instan" karena proses pembuatannya yang cepat dan praktis. Mie instan biasanya dijual dalam kemasan yang berisi mie kering, bumbu, dan minyak.</item>
     </string-array>
     <integer-array name="data_photo">
-        <item>@drawable/rendang</item>
-        <item>@drawable/nasi_goreng</item>
-        <item>@drawable/sate_ayam</item>
-        <item>@drawable/gado_gado</item>
-        <item>@drawable/pempek</item>
-        <item>@drawable/serabi</item>
-        <item>@drawable/pisang_goreng</item>
-        <item>@drawable/lupis_dan_cenil</item>
-        <item>@drawable/mie_instan</item>
+        <item>@drawable/food1</item>
+        <item>@drawable/food2</item>
+        <item>@drawable/food3</item>
+        <item>@drawable/food4</item>
+        <item>@drawable/food5</item>
+        <item>@drawable/food6</item>
+        <item>@drawable/food7</item>
+        <item>@drawable/food8</item>
+        <item>@drawable/food9</item>
+        <item>@drawable/food10</item>
+
     </integer-array>
 </resources>
