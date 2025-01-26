@@ -18,7 +18,7 @@ Proyek aplikasi ini dibuat khusus untuk keperluan submission di kelas Android Pe
 ## Installation
 Clone this repository and import into Android Studio
 ```
-
+https://github.com/baywcksn/MyApp-Project-Kotlin.git
 ```
 ## Author
 * #### Bayu Wicaksono
