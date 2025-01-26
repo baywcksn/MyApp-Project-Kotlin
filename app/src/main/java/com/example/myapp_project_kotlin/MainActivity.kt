@@ -1,8 +1,11 @@
 package com.example.myapp_project_kotlin
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -16,8 +19,26 @@ class MainActivity : AppCompatActivity() {
 
         rvFoods = findViewById(R.id.rv_foods)
         rvFoods.setHasFixedSize(true)
+
         list.addAll(getListFoods())
         showRecyclerList()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_list -> {
+                rvFoods.layoutManager = LinearLayoutManager(this)
+            }
+            R.id.action_grid -> {
+                rvFoods.layoutManager = GridLayoutManager(this, 2)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun getListFoods(): ArrayList<Food> {

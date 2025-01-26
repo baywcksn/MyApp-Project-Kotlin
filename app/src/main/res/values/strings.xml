@@ -1,12 +1,15 @@
 <resources>
-    <string name="app_name">MyRecyclerView</string>
+    <string name="app_name">10 Makanan Favorit di Indonesia</string>
 
     <string name="foods_name">Nama Makanan</string>
     <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
     <string-array name="data_name">
         <item>Rendang</item>
         <item>Nasi Goreng</item>
         <item>Sate Ayam</item>
+        <item>Soto</item>
         <item>Gado-Gado</item>
         <item>Pempek</item>
         <item>Serabi</item>
@@ -18,6 +21,7 @@
         <item>Rendang adalah hidangan daging yang kaya rasa dan berasal dari Minangkabau, Indonesia. Hidangan ini terkenal dengan proses memasaknya yang lama dan penggunaan rempah-rempah yang kompleks, menghasilkan cita rasa yang mendalam dan tekstur daging yang empuk.</item>
         <item>Nasi Goreng adalah hidangan nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, yang umumnya dicampur dengan kecap manis, bawang merah, bawang putih, dan berbagai bahan lainnya. Ini adalah salah satu hidangan paling popular di Indonesia dan juga sangat digemari di berbagai negara di Asia Tenggara.</item>
         <item>Sate ayam adalah hidangan Asia Tenggara yang popular, yang terdiri dari potongan-potongan kecil daging ayam yang ditusuk dan dipanggang atau dibakar. Sate ayam biasanya disajikan dengan saus kacang, kecap manis, atau saus pedas.</item>
+        <item>Soto adalah hidangan berkuah khas Indonesia yang kaya akan rempah. Umumnya, soto terdiri dari kaldu daging, sayuran, dan daging (ayam, sapi, atau jeroan), serta sering disajikan dengan nasi, bihun, atau lontong. Setiap daerah di Indonesia memiliki variasi soto dengan cita rasa yang unik.</item>
         <item>Gado-Gado adalah hidangan salad khas Indonesia yang berasal dari Jakarta. Hidangan ini terkenal dengan saus kacangnya yang lezat dan kaya rasa, serta perpaduan berbagai macam sayuran, tahu, tempe, dan telur. Gado-gado sering disebut sebagai "salad Indonesia" karena kesegaran dan keragaman bahan-bahannya.</item>
         <item>Pempek adalah hidangan khas Palembang, Sumatera Selatan, Indonesia, yang terbuat dari daging ikan dan tepung sagu. Pempek dikenal dengan teksturnya yang kenyal dan rasa ikannya yang gurih. Hidangan ini biasanya disajikan dengan kuah cuko yang asam, manis, dan pedas.</item>
         <item>Serabi adalah jajanan tradisional Indonesia yang berupa kue dadar kecil yang terbuat dari tepung beras dan santan. Serabi memiliki tekstur yang lembut dan empuk, dengan rasa yang gurih dan sedikit manis. Serabi sangat popular di berbagai daerah di Indonesia, dan memiliki variasi yang berbeda-beda di setiap daerah.</item>
