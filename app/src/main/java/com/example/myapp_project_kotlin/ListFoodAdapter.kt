@@ -1,5 +1,6 @@
 package com.example.myapp_project_kotlin
 
+import android.content.Intent
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
@@ -26,9 +27,18 @@ class ListFoodAdapter(private val listFood: ArrayList<Food>) : RecyclerView.Adap
         holder.tvName.text = name
         holder.tvDescription.text = description
 
-        // Callback saat item diklik
+        // Ketika item diklik
         holder.itemView.setOnClickListener {
-            onItemClickCallback.onItemClicked(listFood[holder.adapterPosition])
+            // Intent untuk berpindah ke DetailActivity
+            val intent = Intent(holder.itemView.context, DetailActivity::class.java)
+
+            // Kirim data ke DetailActivity
+            intent.putExtra("EXTRA_NAME", name)
+            intent.putExtra("EXTRA_DESCRIPTION", description)
+            intent.putExtra("EXTRA_PHOTO", photo)
+
+            // Mulai DetailActivity
+            holder.itemView.context.startActivity(intent)
         }
     }
 

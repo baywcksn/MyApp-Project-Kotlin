@@ -3,6 +3,7 @@
 
     <string name="foods_name">Nama Makanan</string>
     <string name="description">Deskripsi</string>
+    <string name="food_image">Gambar Makanan</string>
     <string name="list">List</string>
     <string name="grid">Grid</string>
     <string-array name="data_name">
