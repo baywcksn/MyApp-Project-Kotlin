@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">10 Makanan Favorit di Indonesia</string>
+    <string name="app_name">About Me</string>
     <string name="foods_name">Nama Makanan</string>
     <string name="description">Deskripsi</string>
     <string name="food_image">Gambar Makanan</string>

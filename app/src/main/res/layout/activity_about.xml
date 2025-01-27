@@ -12,34 +12,35 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="24dp"
         app:cardCornerRadius="90dp"
-        app:cardElevation="8dp">
+        app:cardElevation="5dp">
 
-        <ImageView
-            android:id="@+id/profileImage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/profil"
-            android:scaleType="centerCrop" />
-    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profil" />
+
+</androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/nameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bayu Wicaksono"
-        android:textSize="20sp"
-        android:textColor="#212121"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal" />
+        android:text="Bayu Wicaksono"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/emailTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bayuwcksn01@gmail.com"
-        android:textSize="16sp"
-        android:textColor="#757575"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:layout_gravity="center_horizontal" />
+        android:text="bayuwcksn01@gmail.com"
+        android:textColor="#757575"
+        android:textSize="16sp" />
 </LinearLayout>

@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListFoods())
         showRecyclerList()
+
+        supportActionBar?.title = "10 Makanan Favorit di Indonesia"
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
