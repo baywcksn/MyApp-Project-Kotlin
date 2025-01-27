@@ -9,11 +9,10 @@ Proyek aplikasi ini dibuat khusus untuk keperluan submission di kelas Android Pe
      
 ## Features
 #### Submission Checklists
-- [] Display splash screen
-- [] Display images and information in the Format list
-- [] A detail page appears when an item is clicked
-- [] Display images and information on the detail page
-- [] Display page about
+- [X] Display images and information in the Format list
+- [X] A detail page appears when an item is clicked
+- [X] Display images and information on the detail page
+- [X] Display page about
 
 ## Installation
 Clone this repository and import into Android Studio
