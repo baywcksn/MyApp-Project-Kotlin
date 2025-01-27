@@ -1,11 +1,11 @@
 package com.example.myapp_project_kotlin
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -24,21 +24,21 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_about -> {
+                val intent = Intent(this, AboutActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.action_list -> {
-                rvFoods.layoutManager = LinearLayoutManager(this)
-            }
-            R.id.action_grid -> {
-                rvFoods.layoutManager = GridLayoutManager(this, 2)
-            }
-        }
-        return super.onOptionsItemSelected(item)
     }
 
     private fun getListFoods(): ArrayList<Food> {
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             val food = Food(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
             listFood.add(food)
         }
-        dataPhoto.recycle() // Penting untuk melepaskan TypedArray
+        dataPhoto.recycle()
         return listFood
     }
 
